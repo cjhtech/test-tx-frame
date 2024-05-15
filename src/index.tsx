@@ -58,8 +58,8 @@ app.frame("/buy", (c) => {
   return c.res({
     image: "/lex.png",
     intents: [
-      <Button.Transaction target="/buy-yes-tx">Yes</Button.Transaction>,
-      <Button.Transaction target="/buy-no-tx">No</Button.Transaction>,
+      <Button.Transaction target="/buy-yes-tx">Bet yes</Button.Transaction>,
+      <Button.Transaction target="/buy-no-tx">Bet no</Button.Transaction>,
     ],
   });
 });
